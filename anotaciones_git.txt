@@ -18,7 +18,7 @@ comando para inicializar el trabajo en el folder mayor "workspace"
 git init
 
 cargar el visual studio
-git config --global -e
+code .
 
 comando para agregar un archivo al stage
 git add nombre_archivo
