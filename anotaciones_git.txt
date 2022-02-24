@@ -33,5 +33,9 @@ git checkout main
 hacer merge desde main con ramab
 git merge ramab
 
+para trabjar siempre hay primero que actualizar
+git pull <remote>
+
+
 
 
