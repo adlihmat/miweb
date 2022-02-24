@@ -7,8 +7,31 @@ git init
 cargar el visual studio
 git config --global -e
 
+comando para agregar un archivo al stage
+git add nombre_archivo
+
+despues que agregamos git add se hace el commit
+git commit -m "descripcion"
+
 clona un git a tu directorio de trabajo
 git clone https://github.com/adlihmat/miweb.git
 
 Especifica el servidor remoto al que me voy a conectar
 git remote add origin https://github.com/adlihmat/miweb.git
+
+actualizar al servidor de otra persona
+git push //pedira usuario y clave
+
+recordar que para claves se usan los PERSONAL TOKENS
+El cual se genera en la opcion developers de los ajustes de tu cuenta personal
+
+para cambiarse a rama main
+git branch -M main (o nombre de la rama)
+tambien se puede usuar
+git checkout main
+
+hacer merge desde main con ramab
+git merge ramab
+
+
+
