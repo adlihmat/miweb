@@ -1,0 +1,14 @@
+Anotaciones de codigos git mfletes
+Ambiente linux
+
+comando para inicializar el trabajo en el folder mayor "workspace"
+git init
+
+cargar el visual studio
+git config --global -e
+
+clona un git a tu directorio de trabajo
+git clone https://github.com/adlihmat/miweb.git
+
+Especifica el servidor remoto al que me voy a conectar
+git remote add origin https://github.com/adlihmat/miweb.git
