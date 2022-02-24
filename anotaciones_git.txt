@@ -49,6 +49,11 @@ git merge ramab
 para trabjar siempre hay primero que actualizar
 git pull  https://github.com/adlihmat/miweb.git
 
+Para revisar los commit realizados y por quien, se utiliza :
+git log --online 
 
+Como ver tu estatus corto:
+git status -s
 
-
+Como ver mas visualmente tu estatus de los cambios trabajados:
+git diff
