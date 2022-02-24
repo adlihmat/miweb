@@ -67,3 +67,8 @@ mkdir nombredeldirectorio
 luego tienes que iniciar en ese repositorio del proyecto usamos
 git init //importante para trabajar.
 
+para que git guarde tu nombre de usuario y TOKENS
+git config --global credential.helper store
+despues de esta linea, guardara la primera vez tus datos y no volvera a pedirlos.
+
+
