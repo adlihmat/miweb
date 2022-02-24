@@ -57,3 +57,6 @@ git status -s
 
 Como ver mas visualmente tu estatus de los cambios trabajados:
 git diff
+
+para conocer en que rama o donde te ubicas en la terminal
+pwd 
