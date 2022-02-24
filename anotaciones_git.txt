@@ -49,7 +49,21 @@ git merge ramab
 para trabjar siempre hay primero que actualizar
 git pull  https://github.com/adlihmat/miweb.git
 
+Para revisar los commit realizados y por quien, se utiliza :
+git log --online 
 
+Como ver tu estatus corto:
+git status -s
 
+Como ver mas visualmente tu estatus de los cambios trabajados:
+git diff
 
-que jodes , dejame ser
+para conocer en que rama o donde te ubicas en la terminal
+pwd 
+
+Para crear una carpeta o directorio
+mkdir nombredeldirectorio
+
+luego tienes que iniciar en ese repositorio del proyecto usamos
+git init
+
