@@ -1,5 +1,18 @@
+***********************************************************
 Anotaciones de codigos git mfletes
-Ambiente linux
+Ambiente linux/ubuntu
+***********************************************************
+
+Para hacer funcionar vscode
+- bajamos de internet e instalar
+- instalar zsh
+- en la linea de comando ejecutar
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf input //para linux y mac
+git config --global core.autocrlf true //para linux
+
+************COMANDOS IMPORTANTES*******************************
 
 comando para inicializar el trabajo en el folder mayor "workspace"
 git init
@@ -34,7 +47,7 @@ hacer merge desde main con ramab
 git merge ramab
 
 para trabjar siempre hay primero que actualizar
-git pull <remote>
+git pull  https://github.com/adlihmat/miweb.git
 
 
 
